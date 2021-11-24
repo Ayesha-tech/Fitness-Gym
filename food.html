@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious food</title>
+    <style>
+        body {
+            /* color:blanchedalmond; */
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        body::before {
+            background-image: url('http://www.indiamarks.com/wp-content/uploads/maharashtrian-cuisine.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        li {
+            display: inline-block;
+            text-decoration: none;
+            margin: 12px 4px;
+            padding: 2px 4px;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bolder;
+            /* color: rgb(14, 14, 187); */
+        }
+        #card{
+            text-align: center;
+            font-weight: bold;
+            padding: 12px 195px;
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </header>
+    <h2>Welcome to the Food world</h2>
+    <section>
+        <p>
+            CAFE/RESTAURANT
+        </p>
+        <p id="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde tenetur adipisci corrupti cupiditate
+            laudantium ullam voluptatibus et doloremque non vitae minus, natus dolores odio voluptate harum asperiores
+            velit dicta esse!</p>
+    </section>
+</body>
+
+</html>
